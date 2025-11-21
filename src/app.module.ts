@@ -16,7 +16,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: process.env.DB_PASSWORD,
       autoLoadEntities: true,
       synchronize: true, // SOLO EN DESARROLLO
-    })
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
